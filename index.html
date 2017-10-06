@@ -1,56 +1,67 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+
+  <title>Matt Smith</title>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About | Matt Smith</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
 </head>
-
 <body>
+  <!-- "wrapper" div for sticky footer -->
+  <div class="wrapper">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Matt Smith</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/ProfilePic.jpg" class="auth-image" alt="Your Name">
-
-      <p>My name is Matt Smith and I am a participant in the 2017 UNC Coding Bootcamp. Completing the bootcamp will be one of the toughest things I have ever done. I have experienced the full range of emotion while undertaking this task.</p>
-
-      <p>I live in Raleigh, North Carolina, and really enjoy the city. Outside of coding, I like hiking, traveling, sports, music, and playing with my dog, Ruby.</p>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/smithmj90"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/matt-smith-147526ab/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/8373161/matt-smith"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+    <header>
+      <div id="header_block">
+        <div id="header_name_text_block"><h1 id="header_name_text">Matt Smith</h1></div>
+        <nav>
+          <div class="nav_link"><p><a href="index.html">About</a></p></div>
+          <div class="nav_vertical_bar"></div>
+          <div class="nav_link"><p><a href="portfolio.html">Portfolio</a></p></div>
+          <div class="nav_vertical_bar"></div>
+           <div class="nav_link"><p><a href="contact.html">Contact</a></p></div>
+        </nav>
       </div>
+    </header>
+
+    <div id="main_block">
+      <section>
+        <h2>About Me</h2>
+        <div id="section_grey_line"></div>
+        <img id="profile_image" src="assets/images/ProfilePic.jpg" alt="Matt Smith">
+
+    <p>My name is Matt Smith and I am a participant in the 2017 UNC Coding Bootcamp. Completing the bootcamp will be one of the toughest things I have ever done. I have experienced the full range of emotion while undertaking this task.</p>
+    <br>
+    <p>I live in Raleigh, North Carolina, and really enjoy the city. Outside of coding, I like hiking, traveling, sports, music, and playing with my dog, Ruby.</p>
     </section>
+
+      <aside>
+        <h3>Connect with Me</h3>
+        <div id="aside_grey_line"></div>
+        <div id="social_images">
+           <a href="https://github.com/smithmj90" target="_blank">
+        <img src="assets/images/github-128.png" alt="GitHub">
+        </a>
+          <a href="https://www.linkedin.com/in/matt-smith-147526ab/" target="_blank">
+        <img src="assets/images/linkedin-128.png" alt="LinkedIn">
+        </a>
+           <a href="https://stackoverflow.com/users/8373161/matt-smith" target="_blank">
+        <img src="assets/images/stackoverflow-128.png" alt="Stack Overflow">
+        </a>
+        </div>
+      </aside>
+    </div>
+  
+    <!-- "push" div for sticky footer -->
+    <div class="push"></div>
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 2016 Matt Smith
-    </div>
+    <div id="footer_text">&copy; Copyright 2017 Matt Smith</div>
   </footer>
 </body>
-
-</html>
